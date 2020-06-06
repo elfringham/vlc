@@ -1,6 +1,6 @@
 # PNG
 PNG_VERSION := 1.6.16
-PNG_URL := $(SF)/libpng/libpng16/$(PNG_VERSION)/libpng-$(PNG_VERSION).tar.xz
+PNG_URL := $(SF)/libpng/files/libpng16/older-releases/$(PNG_VERSION)/libpng-$(PNG_VERSION).tar.xz
 
 PKGS += png
 ifeq ($(call need_pkg,"libpng"),)

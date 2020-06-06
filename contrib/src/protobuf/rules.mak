@@ -1,6 +1,6 @@
 # protobuf
 PROTOBUF_VERSION := 2.6.0
-PROTOBUF_URL := https://protobuf.googlecode.com/svn/rc/protobuf-$(PROTOBUF_VERSION).tar.bz2
+PROTOBUF_URL := https://github.com/protocolbuffers/protobuf/releases/download/v$(PROTOBUF_VERSION)/protobuf-$(PROTOBUF_VERSION).tar.bz2
 
 PKGS += protobuf
 ifeq ($(call need_pkg,"protobuf"),)
