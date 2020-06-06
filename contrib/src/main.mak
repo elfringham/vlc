@@ -22,7 +22,7 @@ VPATH := $(TARBALLS)
 
 # Common download locations
 GNU := http://ftp.gnu.org/gnu
-SF := http://heanet.dl.sourceforge.net/sourceforge
+SF := https://downloads.dl.sourceforge.net/project
 VIDEOLAN := http://downloads.videolan.org/pub/videolan
 CONTRIB_VIDEOLAN := http://downloads.videolan.org/pub/contrib
 
